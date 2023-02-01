@@ -89,6 +89,7 @@ div .fa-brands{
     .nav-links ul li{
         display: block;
     }
+    
     .nav-links{
      position: fixed;   
      background: #ff630e;
@@ -107,6 +108,10 @@ div .fa-brands{
         font-size: 22px;
         cursor: pointer;
     }
+    nav img{
+    width: 100px;
+    padding-left: 14.66%;
+}
     .nav-links ul{
         padding: 30px;
 
