@@ -90,7 +90,7 @@ div .fa-brands{
         display: block;
     }
     .nav-links{
-     position: absolute;   
+     position: fixed;   
      background: #ff630e;
      height: 100vh;
      width: 150px;
