@@ -4,12 +4,13 @@
     font-family: 'Poppins', sans-serif;
 }
 .header{
-    min-height: 100vh;
+    min-height: 60vh;
     width: 100%;
     background-image: linear-gradient(#FCCE83,#FCCE83) ,url(images/screenshotiu.png);
     background-position: center;
     background-size: cover;
     position: relative;
+    
     
 }
 nav{
@@ -19,20 +20,25 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 180px;
-    padding-left: 16.66%;
+    width: 200px;
+    padding-left: 14.66%;
 }
 .nav-links{
     flex: 1;
     text-align: right;
     position: relative;
+    
 }
 .nav-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px;
     position: relative;
-    
+    transition: 1s;
+}
+.nav-links ul li:hover{
+    transform: translate(0px,-6px);
+    background-color: aliceblue;
 }
 .nav-links ul li a{
     color: rgb(34, 0, 0);
@@ -44,7 +50,7 @@ nav img{
     width: 66.66%;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 37%;
+    top: 57%;
     padding-left: 16.66%;
     padding-right:16.66%;
     text-align: center;
@@ -55,6 +61,13 @@ nav img{
 }
 .text-box p{
     margin: 10px 0 6px;
+}
+.text-box i{
+    transition: 0.6s;
+display: block;
+}
+.text-box i:hover{
+    transform: translate(6px,-10px);
 }
 nav .fa-solid{
     display: none;
@@ -98,26 +111,58 @@ div .fa-brands{
         padding: 30px;
 
     }
+    .under{
+        flex-direction: column;
+    }
 
 
    
 }
 /*---content---*/
-
+.under{
+    
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
 .content{
     width: 100%;
     text-align: left;
-    padding-top: 5px;
+    padding-top: 80px;
     background-image: linear-gradient(#FCCE83,#FCCE83) ,url(images/screenshotiu.png);
     background: cover;
 }
-.under{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: inherit;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: left;
-
+.content2{
+    width: 94%;
+    margin: auto;
+    padding-top: 60PX;
+    padding-bottom: 50PX;
 }
+.contentz{
+    flex-basis: 48%;
+    padding: 20px 2px;
+}
+.contentz img{
+    width: 100%;
+}
+.para{
+    font-size:30px ;
+    color: rgb(53, 53, 53);
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 22px;
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-top: 40px;
+    
+}
+
+
+
+
+    
