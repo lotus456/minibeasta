@@ -50,7 +50,7 @@ nav img{
     width: 66.66%;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 25%;
+    top: 57%;
     padding-left: 16.66%;
     padding-right:16.66%;
     text-align: center;
@@ -135,14 +135,14 @@ div .fa-brands{
 .content{
     width: 100%;
     text-align: left;
-    padding-top: 80px;
+    padding-top: 50px;
     background-image: linear-gradient(#FCCE83,#FCCE83) ,url(images/screenshotiu.png);
     background: cover;
 }
 .content2{
     width: 94%;
     margin: auto;
-    padding-top: 60PX;
+    padding-top: 40PX;
     padding-bottom: 50PX;
 }
 .contentz{
