@@ -135,14 +135,14 @@ div .fa-brands{
 .content{
     width: 100%;
     text-align: left;
-    padding-top: 50px;
+    padding-top: 35px;
     background-image: linear-gradient(#FCCE83,#FCCE83) ,url(images/screenshotiu.png);
     background: cover;
 }
 .content2{
     width: 94%;
     margin: auto;
-    padding-top: 40PX;
+    padding-top: 30PX;
     padding-bottom: 50PX;
 }
 .contentz{
